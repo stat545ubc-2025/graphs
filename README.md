@@ -37,14 +37,14 @@ example_data <- data.frame(
   age = c(20, 22, 30, 35, 42, 50, 63, 68, 70,75, 80),
   total_lipid_count = c(120, 123, 130, 150, 175, 172, 185, 190, 200, 198, 205)
 )
-scatter_plot (example_data, age, total_lipid_count)
+graphs::scatter_plot (example_data, age, total_lipid_count)
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />
 
 ``` r
 
-flight_delay_example <- scatter_plot(nycflights13::flights, dep_delay, arr_delay)
+flight_delay_example <- graphs::scatter_plot(nycflights13::flights, dep_delay, arr_delay)
 flight_delay_example
 #> Warning: Removed 9430 rows containing missing values or values outside the scale range
 #> (`geom_point()`).

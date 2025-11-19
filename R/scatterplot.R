@@ -20,9 +20,9 @@
 #'
 #' @export
 scatter_plot <- function (data, var_x, var_y, na.rm = TRUE){
-  plot <- ggplot(data = data, aes(x = {{var_x}}, y = {{var_y}}))+
-    geom_point(alpha = 0.4)+
-    theme_minimal()
+  plot <- ggplot2::ggplot(data = data, ggplot2::aes(x = {{var_x}}, y = {{var_y}}))+
+    ggplot2::geom_point(alpha = 0.4)+
+    ggplot2::theme_minimal()
 
   return(plot)
 }
