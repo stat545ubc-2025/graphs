@@ -11,7 +11,7 @@ variables as part of exploratory data analysis
 You can install the development version of graphs like so:
 
 Package installation can be performed directly by calling
-`devtools::install_github("puneetarora22/graphs")`
+`devtools::install_github("stat545ubc-2025/graphs")`
 
 ## Example
 
