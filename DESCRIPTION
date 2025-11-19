@@ -1,6 +1,6 @@
 Package: graphs
 Title: Quick scatter plot of numeric variables
-Version: 0.1.0
+Version: 1.0.0
 Authors@R: 
     person("Puneet", "Arora", , "first.last@example.com", role = c("aut", "cre"))
 Description: Generates a scatter plot to examine relationships between numeric variables as part of exploratory data analysis
@@ -11,8 +11,11 @@ RoxygenNote: 7.3.2
 Imports: ggplot2, rlang
 Suggests: 
     datateachr,
+    knitr,
     nycflights13,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 URL: https://github.com/puneetarora22/graphs
 BugReports: https://github.com/puneetarora22/graphs/issues
+VignetteBuilder: knitr

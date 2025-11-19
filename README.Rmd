@@ -22,7 +22,7 @@ Quickly generate scatter plots to examine relationships between numeric variable
 You can install the development version of graphs like so:
 
 Package installation can be performed directly by calling
-`devtool::install_github("puneetarora22/graphs")`
+`devtools::install_github("puneetarora22/graphs")`
 
 
 ## Example
