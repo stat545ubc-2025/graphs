@@ -1,6 +1,6 @@
 Package: graphs
 Title: Quick scatter plot of numeric variables
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person("Puneet", "Arora", , "first.last@example.com", role = c("aut", "cre"))
 Description: Generates a scatter plot to examine relationships between numeric variables as part of exploratory data analysis
