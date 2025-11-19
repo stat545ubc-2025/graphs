@@ -21,3 +21,10 @@ the scatter plot object as a ggplot
 \description{
 This function enables a quick way to generate a scatter plot for two continuous numerical variables in the dataset to check for any association between them
 }
+\examples{
+example_data_1 <- data.frame(
+                  hours_studied = c(1, 2, 3, 4, 5, 6, 7, 8),
+                  exam_score = c(55, 60, 63, 70, 75, 82, 88, 91))
+scatter_plot(example_data_1, hours_studied, exam_score)
+
+}
