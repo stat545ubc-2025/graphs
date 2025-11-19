@@ -1,11 +1,16 @@
 Package: graphs
-Title: What the Package Does (One Line, Title Case)
+Title: Quick scatter plot of numeric variables
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Puneet", "Arora", , "first.last@example.com", role = c("aut", "cre"))
+Description: Generates a scatter plot to examine relationships between numeric variables as part of exploratory data analysis
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+Imports: ggplot2, rlang
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/puneetarora22/graphs
+BugReports: https://github.com/puneetarora22/graphs/issues
